@@ -1,0 +1,78 @@
+
+
+a {
+  color:black;
+}
+
+.profile-img {
+  background: url('/static/img/max.jpg');
+  //background: url('https://45.media.tumblr.com/2f5f65ac4dff778c3732252593aa97b2/tumblr_nn56gtaFnG1u4mirco1_500.gif');
+  width: 180px;
+  height: 240px;
+  background-size: 100% 100%;
+  //margin-left: calc(50% - 100px);
+  margin-left: 77px;
+  margin-top: 40px;
+}
+
+.follow-text {
+  margin-top:40px;
+}
+
+.list-of-projects {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.projects-list-title {
+  margin-top: 40px;
+}
+
+
+$footer-height: 20px;
+
+body, html {
+  margin: 0;
+  padding: 0;
+  max-width: 575px;
+  @media screen and (min-width: 575px) {
+    border-right: 1px solid gray;
+  }
+}
+
+
+.page-wrapper {
+  padding: 10px;
+  padding-bottom:100px;
+}
+.site-footer, {
+  border-top: 1px solid gray;
+  z-index: 1;
+  background-color:white;
+  height: 50px;
+  width: 100%;
+  position:fixed;
+   left:0px;
+   bottom:0px;
+  display:flex;
+  align-items:center;
+  .footer-text-wrapper {
+    display: block;
+    margin-left: 10px;
+  }
+}
+
+.project-wrapper {
+  margin-top:30px;
+}
+
+.project-description {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 15px;
+  max-width: 450px;
+}
+
+.hero-title {
+  //max-width: 350px;
+}
