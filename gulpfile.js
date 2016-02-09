@@ -16,7 +16,7 @@ gulp.task('serve', ['sass'], function() {
         proxy: "127.0.0.1:5000"
     });
 
-    flask_proc = exec('python app.py');
+    flask_proc = exec('python app/app.py');
 
     gulp.watch("scss/*.scss", ['sass']);
     gulp.watch(["templates/*.html","static/css/*.css"]).on('change', browserSync.reload);
